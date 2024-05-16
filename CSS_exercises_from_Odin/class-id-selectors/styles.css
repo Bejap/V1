@@ -1,0 +1,22 @@
+.odd-element {
+    background-color: #fd908e;
+    font-family: Verdana, "DejaVu Sans", sans-serif
+}
+
+#element2 {
+    color: #00e;
+    font-size: 36px
+}
+
+.butbigger {
+    font-size: 24px;
+}
+
+.second-unique {
+    background-color: #95fd7e;
+}
+
+.boldfont {
+    font-size: 24px;
+    font-weight: bold;
+}
