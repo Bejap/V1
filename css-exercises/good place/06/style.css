@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .para.small-para {
+    font-size: 14px;
+    padding: 60px;
+  }
+  
+  .para {
+    font-size: 22px;
+    width: 450px;
+    height: 200px;
+    border: 5px solid black;
+    box-sizing: border-box;
+    margin: 35px;
+    font-weight: 800;
+  }
+  
+  #confirm-button {
+    background: green;
+    color: white;
+    font-weight: bold;
+    margin: 70px;
+    padding: 20px;
+  } 
+  
+  .button {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+  }
+  
+  .text.child {
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+    font-size: 14px;
+    border: 2px solid red;
+  }
+  
+  div.text {
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    font-weight: 100;
+  }
