@@ -1,0 +1,38 @@
+.background {
+    background-color: hsl(30, 54%, 90%);
+}
+
+.Initial {
+    width: 640px;
+    box-sizing: border-box;
+    margin: 20px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 2%;
+
+}
+
+.image-omelette {
+    max-width: 580px;
+    max-height: 480px;
+    box-sizing: border-box;
+    border-radius: 5%;
+}
+
+.prepare {
+    background-color: hsl(330, 100%, 98%);
+    padding: 20px;
+}
+.over {
+    color: hsl(332, 51%, 32%);
+}
+
+.p-list li {
+    padding-left: 20px;
+}
+
+.p-list li::marker {
+    color: hsl(332, 51%, 32%);
+    position: absolute;
+    left: 0;
+}
