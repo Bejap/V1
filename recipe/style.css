@@ -1,38 +1,170 @@
+@font-face {
+    font-family: 'myfont';
+    src: url('assets/fonts/young-serif/YoungSerif-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'fontstyle';
+    src: url('assets/fonts/outfit/Outfit-VariableFont_wght.ttf') format('truetype');
+}
+
+/*Init*/
 .background {
     background-color: hsl(30, 54%, 90%);
 }
 
+
 .Initial {
-    width: 640px;
+    width: 720px;
     box-sizing: border-box;
     margin: 20px auto;
     background-color: white;
     padding: 30px;
     border-radius: 2%;
-
+    font-family: 'fontstyle', serif;
+    font-size: 16px;
+    font-weight: 400;
 }
 
 .image-omelette {
-    max-width: 580px;
+    max-width: 660px;
     max-height: 480px;
     box-sizing: border-box;
     border-radius: 5%;
 }
 
-.prepare {
-    background-color: hsl(330, 100%, 98%);
-    padding: 20px;
+.simple {
+    font-family: 'myfont', serif;
+    font-size: 40px;
+    font-weight: 400;
 }
+
 .over {
+    background-color: hsl(330, 100%, 98%);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    padding: 20px;
+    border-radius: 5%;
+}
+.prepare {
+    margin: 0;
+    padding-bottom: 10px; 
     color: hsl(332, 51%, 32%);
+    font-family: 'fontstyle', serif;
+}
+
+/*End Init*/
+/*prep list*/
+
+.p-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 .p-list li {
-    padding-left: 20px;
+    position: relative;
+    padding-left: 30px; 
+    margin: 10px 0; 
 }
 
-.p-list li::marker {
-    color: hsl(332, 51%, 32%);
+.p-list li::before {
+    content: '•'; 
     position: absolute;
     left: 0;
+    font-size: 16px; 
+    color: hsl(332, 51%, 32%); 
+}
+
+/*End prep list*/
+/*rest*/
+
+.rest {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.rest .header{
+    color: hsl(14, 45%, 36%);
+    font-family: 'myfont', serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+/*End rest*/
+/*Ingredients list*/
+
+.ingred {
+    margin: 0px;
+    padding-inline-start: 20px;
+    width: 620px;
+    padding-bottom: 16px;
+    border-bottom: 2px solid hsl(30, 18%, 87%)
+    
+}
+.ingred li {
+    font-size: 16px;
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+.ingred li::marker {
+    color: hsl(14, 45%, 36%);
+    font-size: 12px;
+}
+
+/*End Ingredients list*/
+/*Instructions list*/
+
+.instru {
+    font-size: 16px;
+    margin: 0px;
+    padding-inline-start: 20px;
+    width: 620px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid hsl(30, 18%, 87%);
+}
+
+.instru li{
+    font-size: 16px;
+    position: relative;
+    padding-left: 15px;
+    margin-bottom: 15px;
+}
+.instru li::marker {
+    color: hsl(14, 45%, 36%);
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/*End Instructions list*/
+
+/*Nutrition start*/
+.u-text-align--right {
+    text-align: right;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 620px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+.flex-container > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    border-bottom: 2px solid #ebecec;
+    padding: 16px;
+    box-sizing: border-box;
+}
+
+.flex-container > div > p {
+    margin: 0;
 }
