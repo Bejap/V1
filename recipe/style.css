@@ -142,29 +142,22 @@
 /*End Instructions list*/
 
 /*Nutrition start*/
-.u-text-align--right {
-    text-align: right;
+.nutrition {
+    width: 640px;
 }
 
-.flex-container {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-    max-width: 620px;
-    margin: 0 auto;
-    padding: 16px;
+.u-text-align {
+    text-align: left;
+    font-weight: 400;
+    padding: 20px 30px 20px;
 }
-
-.flex-container > div {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #fff;
-    border-bottom: 2px solid #ebecec;
-    padding: 16px;
-    box-sizing: border-box;
+.bock {
+    border-bottom: 2px solid hsl(30, 18%, 87%);
 }
-
-.flex-container > div > p {
-    margin: 0;
+.u-number-align {
+    text-align: left;
+    font-family: 'fontstyle', serif;
+    padding-right: 50px;
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
 }
