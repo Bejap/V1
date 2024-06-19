@@ -19,8 +19,8 @@
     background-color: hsl(30, 54%, 90%);
 }
 
-
-.Initial {
+ 
+.container {
     width: 720px;
     box-sizing: border-box;
     margin: 20px auto;
@@ -28,7 +28,7 @@
     border-radius: 2%;
 }
 
-.Initiall {
+.initial {
     padding: 20px 30px;
     font-family: 'fontstyle', serif;
     font-size: 16px;
@@ -40,24 +40,30 @@
     max-height: 480px;
     box-sizing: border-box;
     border-radius: 5%;
-    margin: 20px 30px;
+    margin: 30px;
 }
 
-.simple {
+.over-header {
     font-family: 'myfont', serif;
     font-size: 40px;
     font-weight: 400;
+    margin-bottom: 25px;
 }
 
-.over {
+.paragraph {
+    margin-bottom: 25px;
+}
+
+.preparation-time {
     background-color: hsl(330, 100%, 98%);
     display: flex;
     flex-direction: column;
     align-items: flex-start; 
     padding: 20px;
     border-radius: 5%;
+    margin-bottom: 20px;
 }
-.prepare {
+.prepare-header {
     margin: 0;
     padding-bottom: 10px; 
     color: hsl(332, 51%, 32%);
@@ -90,38 +96,42 @@
 /*End prep list*/
 /*rest*/
 
-.rest {
+.ingredients-time {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
 
-.rest .header{
+h2 {
     color: hsl(14, 45%, 36%);
     font-family: 'myfont', serif;
     font-size: 30px;
     font-weight: 400;
+    margin-bottom: 20px;
 }
 
 /*End rest*/
+
 /*Ingredients list*/
 
-.ingred {
-    margin: 0px;
+.ingred-list {
+    margin: 10px;
     padding-inline-start: 20px;
     width: 620px;
-    padding-bottom: 16px;
-    border-bottom: 2px solid hsl(30, 18%, 87%)
+    padding-bottom: 20px;
+    border-bottom: 2px solid hsl(30, 18%, 87%);
+    margin-bottom: 20px;
+    
     
 }
-.ingred li {
+.ingred-list li {
     font-size: 16px;
     position: relative;
     padding-left: 20px;
     margin-bottom: 10px;
 }
 
-.ingred li::marker {
+.ingred-list li::marker {
     color: hsl(14, 45%, 36%);
     font-size: 12px;
 }
@@ -182,8 +192,9 @@ table tr .bock {
     }
 
     .Initial {
-        width: 300px;
+        width: 100%;
         border-radius: 0%;
+        margin: 0;
     }
     .Initiall {
         padding: 15px;
